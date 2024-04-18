@@ -22,23 +22,6 @@ body {
   background-size: cover;
 }
 
-/* .btn {
-  display: inline-block;
-  background-color: #a8d1fdc4;
-  color: #ffffff; /* Button text color */
-  /* padding: 10px 20px; /* Button padding */
-  /* text-decoration: none; /* Remove default underline */
-  /* border-radius: 5px; /*Rounded corners */
-  /* transition: background-color 0.3s ease; Smooth transition 
-} */
-
-/* .btn:hover {
-  background-color: #0056b3; /* Button background color on hover 
-
-} */
-
-
-/* CSS */
 .btn{
   position: absolute;
   top: 30px; 

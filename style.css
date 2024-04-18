@@ -17,7 +17,7 @@ body {
 
 h1{
   top: 0;
-  margin-left: 600px;
+  margin-left: 500px;
   position: absolute;
   text-align: center;
   color: #31008c;
@@ -51,7 +51,7 @@ h1{
 .btn{
   position: absolute;
   top: 30px; 
-  left: 1230px;
+  left: 1100px;
   align-items: center;
   appearance: none;
   background-color: #fff;

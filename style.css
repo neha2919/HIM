@@ -14,7 +14,14 @@ body {
   background-position: center;
   background-size: cover;
 }
-
+h1{
+  top: 0;
+  margin-left: 600px;
+  position: absolute;
+  text-align: center;
+  color: #31008c;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .background-image {
   position: fixed;
   height: 100%;
@@ -427,4 +434,30 @@ body {
 			width: 250px;
 		}
 	}
+  .image-gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 110px;
+  }
+  
+  .image-gallery img {
+    width: 150px; /* Set the width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Add some space between images */
+  }
+  
+  .images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+  }
+  
+  .images img {
+    width: 150px; /* Set the width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Add some space between images */
+  }
+  
   

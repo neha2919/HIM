@@ -1,0 +1,113 @@
+/* Style for options container */
+body{
+    background-color: #e4bad7d9;
+}
+.options-container {
+    display:flow-root;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Style for option buttons */
+.option {
+    background-color: #a377c1;
+    color: white;
+    font-size: x-small;
+    /* text-align: center; */
+    border: whitesmoke;
+    /* padding: 5px 5px; */
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+/* Style for complaint box */
+.complaint-box {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: #ffe6e6d3; /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: stretch; /* Stretch items to fill container */
+    box-shadow: 14px 14px 20px #b47fcc64, -14px -14px 20px rgb(237, 213, 232);
+}
+
+.complaint-box h2 {
+    margin-top: 0;
+}
+
+.complaint-box label {
+    display: block; /* Display label elements as block */
+    margin-bottom: 10px; /* Add margin to separate labels */
+}
+
+.complaint-box input[type="email"],
+.complaint-box input[type="text"],
+.complaint-box input[type="subject"],
+.complaint-box input[type="message"],
+.complaint-box textarea {
+    width: 95%; /* Take up full width */
+    padding: 10px;
+    margin-bottom: 10px; /* Increased margin */
+    /* border: 1px solid #ccc; */
+    border-radius: 15px;
+    display: block; /* Display input fields as blocks */
+}
+
+.complaint-box textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+    
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  label, input, button {
+    /* display: block; */
+    width: 95%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-bottom: 4px;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+input::placeholder {
+    color: gray;
+  }
+input{
+    box-shadow: inset 6px 6px 6px #d5d8dbd2, inset -6px -6px 6px white;
+}
+
+.complaint-box button {
+    background-color: #7469B6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.complaint-box button:hover {
+    background-color: #0056b3;
+}

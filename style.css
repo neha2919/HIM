@@ -1,4 +1,4 @@
-body, h1 {
+body{
   font-family: "Raleway", sans-serif;
   background-color: #FFE6E6;
 }
@@ -14,6 +14,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
 h1{
   top: 0;
   margin-left: 600px;
@@ -22,6 +23,7 @@ h1{
   color: #31008c;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .background-image {
   position: fixed;
   height: 100%;
@@ -29,10 +31,27 @@ h1{
   background-size: cover;
 }
 
+/* .btn {
+  display: inline-block;
+  background-color: #a8d1fdc4;
+  color: #ffffff; /* Button text color */
+  /* padding: 10px 20px; /* Button padding */
+  /* text-decoration: none; /* Remove default underline */
+  /* border-radius: 5px; /*Rounded corners */
+  /* transition: background-color 0.3s ease; Smooth transition 
+} */
+
+/* .btn:hover {
+  background-color: #0056b3; /* Button background color on hover 
+
+} */
+
+
+/* CSS */
 .btn{
   position: absolute;
   top: 30px; 
-  left: 1100px;
+  left: 1230px;
   align-items: center;
   appearance: none;
   background-color: #fff;
@@ -434,6 +453,7 @@ h1{
 			width: 250px;
 		}
 	}
+  
   .image-gallery {
     position: absolute;
     top: 0;
@@ -459,5 +479,6 @@ h1{
     height: auto; /* Maintain aspect ratio */
     margin: 5px; /* Add some space between images */
   }
+  
   
   
